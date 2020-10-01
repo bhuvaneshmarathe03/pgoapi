@@ -2,18 +2,18 @@
 
 # pgoapi - a pokemon go api lib in python
 pgoapi is a client/api/demo for Pokemon Go by https://github.com/tejado.  
-It allows automatic parsing of requests/responses by finding the correct protobuf objects over a naming convention and will return the response in a parsed python dictionary format.   
+This allows you to automate parsing of requests/responses by finding the correct protobuf objects over a naming convention and this will return the response in a parsed python dictionary format.   
 
  * This is unofficial - USE AT YOUR OWN RISK !
  * I don't play pokemon go !
  * No bot/farming code included !
 
-## Feature Support
+## Featured Support
  * Python 2 and 3
- * Google/PTC auth
+ * Google/PTC authentication
  * Address parsing for GPS coordinates
  * Allows chaining of RPC calls
- * Re-auth if ticket expired
+ * Re-auth if the ticket expired
  * Check for server side-throttling
  * Thread-safety
  * Advanced logging/debugging
